@@ -8,66 +8,96 @@
 
 There are several ways of editing your application.
 
-**Use Lovable**
+# Muhammad Uzair Portfolio
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Personal portfolio for Muhammad Uzair, a Data Analyst and AI/ML practitioner based in Peshawar, Pakistan.
 
-Changes made via Lovable will be committed automatically to this repo.
+The site presents professional experience, education, certifications, technical skills, and contact links in a dark editorial layout. It includes the portrait hero section, responsive navigation, animated section reveals, and an MCP data layer for the portfolio profile.
 
-**Use your preferred IDE**
+## Highlights
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Data analytics, financial reporting, and business intelligence experience
+- Machine learning, deep learning, NLP, computer vision, and generative AI projects
+- Python, SQL, Power BI, TensorFlow, scikit-learn, and related tools
+- Responsive single-page portfolio with accessible navigation and contact actions
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Tech Stack
 
-Follow these steps:
+- React 18 and TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+- Radix UI and shadcn-style components
+- Supabase client and MCP tools
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Getting Started
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Requirements
 
-# Step 3: Install the necessary dependencies.
-npm i
+- Node.js 18 or newer
+- npm
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Installation
+
+```bash
+git clone https://github.com/uzair592/MUHAMMAD-UZAIR-PORTFOLIO.git
+cd MUHAMMAD-UZAIR-PORTFOLIO
+npm install
+```
+
+### Development
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Vite will print the local development URL in the terminal.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Available Scripts
 
-**Use GitHub Codespaces**
+| Command | Purpose |
+| --- | --- |
+| `npm run dev` | Start the development server |
+| `npm run build` | Create a production build |
+| `npm run build:dev` | Create a development-mode build |
+| `npm run preview` | Preview the production build locally |
+| `npm run lint` | Run ESLint |
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Project Structure
 
-## What technologies are used for this project?
+```text
+src/
+	components/       Portfolio sections and reusable UI components
+	pages/            Application pages
+	assets/           Portfolio assets and metadata
+	hooks/            Shared React hooks
+	integrations/     Supabase client and types
+	lib/mcp/          Portfolio data and MCP tools
+public/             Static files, including the site favicon
+supabase/           Supabase configuration and edge functions
+```
 
-This project is built with:
+## Portfolio Sections
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- About: background, focus, and professional summary
+- Skills: data, programming, AI/ML, BI, and business tools
+- Work: professional experience and responsibilities
+- Education: academic background and achievements
+- Certifications: professional training and credentials
+- Contact: GitHub, LinkedIn, email, and phone details
 
-## How can I deploy this project?
+## Deployment
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Build the site with:
 
-## Can I connect a custom domain to my Lovable project?
+```bash
+npm run build
+```
 
-Yes, you can!
+Deploy the generated `dist/` directory to any static hosting provider that supports single-page applications. Configure the host to serve `index.html` for unknown routes.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Contact
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- GitHub: [uzair592](https://github.com/uzair592)
+- LinkedIn: [Muhammad Uzair](https://www.linkedin.com/in/muhammad--uzair)
+- Email: [uzairawan592@gmail.com](mailto:uzairawan592@gmail.com)
